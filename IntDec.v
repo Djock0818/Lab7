@@ -1,4 +1,4 @@
-module Lab7DEC(I,RD,RS1,RS2,IMM);
+module IntDec(I,RD,RS1,RS2,IMM);
     input [31:0] I;
     output [4:0] RD,RS1,RS2;
     output [11:0] IMM;
